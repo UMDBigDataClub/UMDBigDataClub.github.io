@@ -29,49 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-/*Navbar*/
-
-nav ul{
-	list-style-type: none;
-	margin:0;
-  	padding: 0px 0px;
-	width: 100%;
-  	background: black;
-	opacity: 0.85;
-	position: fixed;
-	top: 0;
-	overflow:auto;
-	z-index: 99;
-	text-align:center;
-
-}
-
-nav ul li{
-	display:inline-block;
-	text-align:center;
-	width: 15%;
-	overflow:auto;
-	padding: 10px 0px;
-
-
-}
-
-nav ul a{
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-	text-decoration:none;
-	
-}
-
-nav ul a:hover{
-	color:white;
-	
-}
-
-*/
-
-
 body {
 	line-height: 1;
 }
@@ -206,7 +163,7 @@ input, select, textarea {
 		color: #35b88f;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
-		/*border-bottom: dotted 1px rgba(53, 184, 143, 0.5);*/
+		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
 	}
 
 		a:hover {
