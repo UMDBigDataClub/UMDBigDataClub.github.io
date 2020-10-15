@@ -29,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/*Additions to default template*/
 /*Navbar*/
 
 nav ul{
@@ -69,6 +70,15 @@ nav ul a:hover{
 	
 }
 
+.mainarticle{
+	background-color: white;
+	display: block;
+	margin: 0.5em 0.5em 0 0.5em;
+	padding: 0 0 1.5em 0;
+	
+}
+
+/*Prevous template formatting*/
 
 body {
 	line-height: 1;
