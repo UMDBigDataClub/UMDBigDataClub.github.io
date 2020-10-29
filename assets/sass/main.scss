@@ -744,6 +744,64 @@
 				text-align: center;
 			}
 		}
+        
+        &.style4 {
+			background: #fff;
+			padding: 3em;
+
+			.image {
+				display: block;
+				position: absolute;
+				top: 0;
+				width: 50%;
+				height: 100%;
+				background: #152E33;
+				overflow: hidden;
+
+				img {
+					position: absolute;
+					top: 0;
+					height: 100%;
+					width: auto;
+				}
+			}
+
+			.inner {
+				> :last-child {
+					margin: 0;
+				}
+			}
+
+			&.right {
+				.image {
+					left: 0;
+
+					img {
+						right: 0;
+					}
+				}
+
+				.inner { 
+					margin-left: 50%;
+					padding-left: 3em;
+				}
+			}
+
+			&.left {
+				.image {
+					right: 0;
+
+					img {
+						left: 0;
+					}
+				}
+
+				.inner {
+					margin-right: 50%;
+					padding-right: 3em;
+				}
+			}
+		}
 	}
 
 /* Icons */
@@ -1429,3 +1487,7 @@
 			}
 
 	}
+
+.white {
+    background-color: #fff !important;
+}
