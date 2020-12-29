@@ -78,6 +78,74 @@ nav ul a:hover{
 	
 }
 
+/*Resources Section*/
+
+.resource {
+	overflow:auto;
+	float:left;
+	background-color:white;
+	margin:1%;
+	color:gray;
+	width: 31%;
+	font-size: 16px;
+}
+
+.resource img {
+	vertical-align:bottom;
+	float:left;
+	width:48%;
+}
+
+.resource div {
+	float:right;
+	margin:2%;
+	width:44%;
+}
+
+.data {
+	overflow:auto;
+	background-color:transparent;
+	border: 5px solid white;
+	margin: 2%;
+	padding: 1%;
+	color:white;
+}
+
+.python {
+	overflow:auto;
+	background-color:transparent;
+	border: 5px solid lime;
+	margin: 2%;
+	padding: 1%;
+	color:lime;
+}
+
+.R {
+	overflow:auto;
+	background-color:transparent;
+	border: 5px solid cyan;
+	margin: 2%;
+	padding: 1%;
+	color:cyan;
+}
+
+.AWS {
+	overflow:auto;
+	background-color:transparent;
+	border: 5px solid orange;
+	margin: 2%;
+	padding: 1%;
+	color:orange;
+}
+
+.Other{
+	overflow:auto;
+	background-color:transparent;
+	border: 5px solid magenta;
+	margin: 2%;
+	padding: 1%;
+	color:magenta;
+}
 /*Prevous template formatting*/
 
 body {
